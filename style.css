@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+}
+
+.menu-superior{
+    margin: 0px;
+    display: flex;
+    background: rgb(255, 114, 18);;
+    color: white;
+    height: 60px;
+    justify-content: start;
+}
+#busca{
+    width: 220px;
+    height: 28px;
+    border-radius: 20px ;
+    margin: 13px 0px 0px 10px;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.logo{    
+    width: 130px;
+    height: 40px;
+    background: url(./logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 7px 175px 0px 110px;
+    cursor: pointer;
+}
+
+#info {
+    font-size: 14px;
+    width: 230px;
+    height: 30px;
+    margin: 15px 22px 0px 20px;
+}
+
+#info:hover{
+    cursor: pointer;
+    color: rgb(226, 226, 226);
+}
+
+.menu-superior li{
+    width: 70px;
+    list-style: none;
+    line-height: 30px;
+    padding: 15px 0px 0px 0px;
+    font-weight: 650;
+}
+.fa{
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    padding: 15px 10px 0px 0px;
+}
+
+.fa:hover{
+    cursor: pointer;
+    color: rgb(226, 226, 226);
+    
+}
+
+
+
+
+
+
+#content {
+    display: flex;
+    margin: 60px 0 0 50px;
+}
+
+
+#fundo1{
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 150px 0px 0px;
+}
+
+.caixa{
+    width: 310px;
+    height: 130px;
+    display: flex;
+    border: 1px solid gray;
+    margin: 0px 0px 0px 20px;
+}
+
+.caixa:hover{
+    cursor: pointer;
+
+}
+
+#texto1{
+    width: 150px;
+    height: 120px;
+    margin: 0px 0px 0px 10px;
+}
+
+#foto1{
+    width: 135px;
+    height: 130px;
+    background: url('./bolsonaro.PNG');
+}
+.estilo-titulo1{
+    color: rgb(210, 113, 83);
+    margin: 3px 0 5px 0px;
+}
+.estilo-titulo2{
+    color: rgb(27, 165, 176);
+    margin: 3px 0 5px 0px;
+}
+
+#texto2{
+    width: 150px;
+    height: 120px;
+    margin: 0px 0px 0px 10px;
+}
+
+#foto2{
+    width: 135px;
+    height: 130px;
+    background: url('./pessoa.PNG');
+}
+
+#texto3{
+    width: 150px;
+    height: 120px;
+    margin: 0px 0px 0px 10px;
+}
+
+#foto3{
+    width: 135px;
+    height: 130px;
+    background: url('./museu.PNG');
+}
+
+#texto4{
+    width: 150px;
+    height: 120px;
+    margin: 0px 0px 0px 10px;
+}
+
+#foto4{
+    width: 135px;
+    height: 130px;
+    background: url('./corona.PNG');
+}
+
+
+
+
+
+
+  #fundo2 {
+    background-color: rgb(37, 169, 252);
+    position: relative;
+    display: block;
+    width: 315px;
+    height: 240px;
+  }
+  
+  .cabeca {
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    width: 200px;
+    height: 200px;
+    background: #A6BECF;
+    border-radius: 200px;
+  }
+  
+  .segunda-cabeca {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: #A6BECF;
+    border-radius: 200px;
+    z-index: 2;
+  }
+ 
+  .nariz {
+    position: absolute;
+    background: #BE845F;
+    width: 50px;
+    height: 90px;
+    z-index: 4;
+    top: 90px;
+    left: 75px;
+    border-radius: 50px;
+  }
+  .cabelo-esquerdo {
+    position: absolute;
+    background: #A6BECF;
+    width: 45px;
+    height: 30px;
+    top: -15px;
+    left: 60px;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .cabelo-direito {
+    position: absolute;
+    background: #A6BECF;
+    width: 60px;
+    height: 60px;
+    top: -8px;
+    left: 95px;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+
+  .orelha-esquerda {
+    position: absolute;
+    background: #819CAF;
+    width: 100px;
+    height: 100px;
+    left: -40px;
+    top: 10px;
+    border-radius: 130px;
+    z-index: 1;
+    border: 15px solid #A6BECF
+  }
+  
+  .orelha-direita {
+    position: absolute;
+    background: #819CAF;
+    width: 100px;
+    height: 100px;
+    right: -40px;
+    top: 10px;
+    border-radius: 130px;
+    z-index: 1;
+    border: 15px solid #A6BECF
+  }
+  
+  .olho-esquerdo {
+    position: absolute;
+    background: white;
+    width: 60px;
+    height: 66px;
+    top: 50px;
+    left: 42px;
+    z-index: 3;
+    border-radius: 100px;
+  }
+  
+  .olho-direito {
+    position: absolute;
+    background: white;
+    width: 60px;
+    height: 66px;
+    top: 50px;
+    right: 42px;
+    z-index: 3;
+    border-radius: 100px;
+  }
+  
+  .iris-esquerda {
+    position: absolute;
+    background: black;
+    width: 17px;
+    height: 20px;
+    top: 26px;
+    left: 22px;
+    border-radius: 100px;
+  }
+  
+  .iris-direita {
+    position: absolute;
+    background: black;
+    width: 17px;
+    height: 20px;
+    top: 26px;
+    right: 22px;
+    border-radius: 100px;
+  }
